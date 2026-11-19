@@ -1,0 +1,34 @@
+# Build & distribution outputs
+/build/
+/dist/
+/target/
+*.class
+*.war
+*.ear
+
+# Environment & local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# NetBeans private & backup files
+nbproject/private/
+nbproject/*~
+*~
+
+# User-uploaded personal profile images (keep folder tracked via .gitkeep)
+web/profile-images/*
+!web/profile-images/.gitkeep
+
+# IDE & OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.bak
+*.log
